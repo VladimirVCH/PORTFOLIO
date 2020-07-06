@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Custom_b.qml</file>
+        <file>Page_1_Enter_name.qml</file>
+        <file>Page_2_Game_mode.qml</file>
+        <file>Page_3_Client_mode.qml</file>
+        <file>Page_4_Server_mode.qml</file>
+        <file>Page_5_Game_main.qml</file>
+        <file>Back_button.qml</file>
+    </qresource>
+</RCC>
