@@ -89,7 +89,7 @@ void Server::sendMsg(
 
   QString tempSize = QString::number(_msg.size());
 
-  for (int i = 0; i < 10 - tempSize.size(); i++)
+  for (int i = 0; i < m_conn_size - tempSize.size(); i++)
     msgSize.append("0");
 
   msgSize.append(tempSize);
